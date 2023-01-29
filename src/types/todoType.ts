@@ -32,7 +32,7 @@ interface FetchTodoPageAction {
     payload: number
 }
 
-export type TodoAction = FetchTodoAction
+export type TodoACType = FetchTodoAction
     | FetchTodoSuccessAction
     | FetchTodoErrorAction
     | FetchTodoPageAction

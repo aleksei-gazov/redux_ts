@@ -25,4 +25,4 @@ interface FeatchUserErrorAction {
 }
 
 
-export type UserAction = FeatchUserAction | FeatchUserSuccessAction | FeatchUserErrorAction
+export type UserACType = FeatchUserAction | FeatchUserSuccessAction | FeatchUserErrorAction
